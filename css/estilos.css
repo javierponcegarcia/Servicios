@@ -2,7 +2,10 @@
 
 /*Div*/
 /*div#contenido_derecha, #derecha{ border: 2px solid black; }*/
-body {background-image: url(../img/imagen_index.jpg);}
+body {background-image: url(../img/imagen_index.jpg);
+background-repeat: no-repeat;
+background-size: 100%;}
+
 div#contenedor { 
 	width: 1188px;
 	height: 700px;
@@ -18,7 +21,7 @@ div#contenido {
 div#titulo {
 	
 	width: 400px;
-	margin-left: 250px;
+	margin-left: 150px;
 	border-radius: 10px;
 }
 
@@ -26,8 +29,8 @@ div#titulo {
 div#menu{
 	width: 200px;
 	height: 700px;
-	display: inline-flex;
-	background-color: cadetblue;
+	
+	text-decoration-color: black;
 
 }
 div#buscador{ 
@@ -48,7 +51,7 @@ div#buscador{
 div#pie{
 	width: 990px;
 	height: 150px; 
-	
+	margin-left: 300px;
 	display: inline-flex;
 	align-items: center;
 	margin-top: 5px;
@@ -64,6 +67,54 @@ div#derecha{
 
 
 /*Mod Item-------------------------------*/
+* {
+	margin:0px;
+	padding:0px;
+}
+#menu{}
+
+ul, ol {
+	list-style:none;
+}
+
+.navi > li {
+	float:left;
+	
+}
+
+
+.navi li a {
+	background-color: gray;
+	opacity: 50%;
+	font-size:30px;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.navi li a:hover {
+	background-color:#434343;
+}
+
+.navi li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.navi li:hover > ul {
+	display:block;
+}
+
+.navi li ul li {
+	position:relative;
+}
+
+.navi li ul li ul {
+	right:-140px;
+	top:0px;
+}
 
 ul#lista_menu {
 	width: 200px;
@@ -74,6 +125,7 @@ ul#lista_menu {
 
 }
 li.me_lista {
+	font-size: larger;
 	color: white;
 	margin-top: 50px;
 	text-decoration: none;
@@ -82,7 +134,7 @@ li.me_lista {
 
 }
 a.me_lista {
-	color: white;
+	color: black;
 	margin-top: 50px;
 	text-decoration: none;
 }
@@ -90,7 +142,7 @@ a.me_lista {
 
 
 h1.bu_h1{
-	width: 400px;
+	width: 500px;
 	color: white;
 	font-family: sans-serif;
 	text-align: center;
@@ -122,14 +174,3 @@ div.der_item{
 	margin: 5px;
 	height: 120px
 }
-/*hover----------------------------------------*/
-
-li.me_lista:hover{background-color: white;
-color: red}
-
-a.me_lista:hover {color: red;
-	scale: 2;
-}
-
-img.pi_item:hover {width: 80px}
-
