@@ -1,0 +1,29 @@
+
+#imagenes {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#imagenes > div {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px; 
+}
+
+#imagenes img {
+    width: 80%;
+    height: 80%;
+}
+
+#imagenes div {
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
