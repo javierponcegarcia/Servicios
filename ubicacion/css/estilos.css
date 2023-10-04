@@ -2,7 +2,8 @@
 
 /*Div*/
 /*div#contenido_derecha, #derecha{ border: 2px solid black; }*/
-body {background-image: url(../img/imagen_ubi.jpg);
+body {
+background-image: url(./img/imagen_ubi.jpg);
 background-repeat: no-repeat;
 background-size: 100%;}
 

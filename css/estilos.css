@@ -16,13 +16,15 @@ div#contenedor {
 div#contenido {
 	width: 788px;
 	height: 700px;
+	margin:auto;
 }
 
 div#titulo {
-	
 	width: 400px;
-	margin-left: 150px;
-	border-radius: 10px;
+	margin-left: 282.5px;
+	border-radius:10px;
+	margin-top: -30px;
+	font-size: larger;
 }
 
 
@@ -48,16 +50,23 @@ div#buscador{
  	margin-bottom: 4px;
  }
 
-div#pie{
-	width: 990px;
-	height: 150px; 
-	margin-left: 60px;
-	display: inline-flex;
-	align-items: center;
-	margin-top: 5px;
+#pie{
 	
+	position: absolute;
+	bottom:20px;
+	right: 40%;
+}
+footer{
+	width: 100%;
+	margin-top: 170px;
+	margin-left: 20px;
 }
 
+footer a{
+	text-decoration: none;
+	color: cyan;
+	opacity: 0.5;
+}
 
 div#derecha{ 
 	width: 200px;
@@ -151,6 +160,7 @@ h1.bu_h1{
 	text-align: center;
 	font-family: verdana;
 	}
+	
 
 img.im_item {
 	width: 592px;
@@ -178,12 +188,4 @@ div.der_item{
 	margin: 5px;
 	height: 120px
 }
-
-footer{
-	background-color: #434343a4;
-}
-
-ul.pie li{
-	display: inline;
-	margin-right: 5px;
-}
+img.pi_item:hover {width: 80px}
