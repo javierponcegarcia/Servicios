@@ -178,3 +178,12 @@ div.der_item{
 	margin: 5px;
 	height: 120px
 }
+
+footer{
+	background-color: #434343a4;
+}
+
+ul.pie li{
+	display: inline;
+	margin-right: 5px;
+}
