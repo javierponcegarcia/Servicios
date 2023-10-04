@@ -106,6 +106,7 @@ footer {
  #menu {
     background-color: #333;
     text-align: center;
+    padding-top: 10px;
  }
  .navi li {
     display: inline;
@@ -116,4 +117,9 @@ footer {
 	color:#fff;
 	text-decoration:none;
 	padding:10px 12px;
+ }
+ 
+ .navi li a:hover{
+	
+
  }

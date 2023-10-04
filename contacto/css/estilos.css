@@ -23,13 +23,57 @@ div#titulo {
 }
 
 
-div#menu{
-	width: 200px;
-	height: 700px;
-	display: inline-flex;
-	background-color: cadetblue;
-
+/*Menu Desplegable-----------------------*/
+* {
+	margin:0px;
+	padding:0px;
 }
+
+
+ul, ol {
+	list-style:none;
+}
+
+.navi > li {
+	float:left;
+	font-family: Verdana;
+	text-align: center;
+}
+
+
+.navi li a {
+	background-color: gray;
+	opacity: 50%;
+	font-size:30px;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.navi li a:hover {
+	background-color:#434343;
+}
+
+.navi li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.navi li:hover > ul {
+	display:block;
+}
+
+.navi li ul li {
+	position:relative;
+}
+
+.navi li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
 div#buscador{ 
 	width: 990px;
 	height: 150px; 
