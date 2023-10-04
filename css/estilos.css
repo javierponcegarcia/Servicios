@@ -36,7 +36,7 @@ div#menu{
 div#buscador{ 
 	width: 990px;
 	height: 150px; 
-	
+	margin-left: 140px;
 	display: inline-flex;
 	align-items: center;
 	gap: 400px;
@@ -51,10 +51,11 @@ div#buscador{
 div#pie{
 	width: 990px;
 	height: 150px; 
-	margin-left: 300px;
+	margin-left: 60px;
 	display: inline-flex;
 	align-items: center;
 	margin-top: 5px;
+	
 }
 
 
@@ -66,12 +67,12 @@ div#derecha{
  }
 
 
-/*Mod Item-------------------------------*/
+/*Menu Desplegable-----------------------*/
 * {
 	margin:0px;
 	padding:0px;
 }
-#menu{}
+
 
 ul, ol {
 	list-style:none;
@@ -79,7 +80,8 @@ ul, ol {
 
 .navi > li {
 	float:left;
-	
+	font-family: Verdana;
+	text-align: center;
 }
 
 
@@ -116,6 +118,8 @@ ul, ol {
 	top:0px;
 }
 
+/*Mod Item-------------------------------*/
+
 ul#lista_menu {
 	width: 200px;
 	list-style: none;
@@ -144,7 +148,6 @@ a.me_lista {
 h1.bu_h1{
 	width: 500px;
 	color: white;
-	font-family: sans-serif;
 	text-align: center;
 	font-family: verdana;
 	}
@@ -159,6 +162,7 @@ img.pi_item {
 	margin-inline: 40px;
 	margin-bottom: 35px;
 	padding: 0;
+	
 }
 
 img#instagram {margin-left: 300px}
@@ -174,7 +178,3 @@ div.der_item{
 	margin: 5px;
 	height: 120px
 }
-
-
-
-
