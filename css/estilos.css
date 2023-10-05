@@ -21,7 +21,7 @@ div#contenido {
 
 div#titulo {
 	width: 400px;
-	margin-left: 282.5px;
+	margin-left: 250px;
 	border-radius:10px;
 	margin-top: -30px;
 	font-size: larger;
@@ -31,14 +31,12 @@ div#titulo {
 div#menu{
 	width: 200px;
 	height: 700px;
-	
 	text-decoration-color: black;
 
 }
 div#buscador{ 
 	width: 990px;
-	height: 150px; 
-	margin-left: 140px;
+	height: 100px; 
 	display: inline-flex;
 	align-items: center;
 	gap: 400px;
@@ -54,11 +52,11 @@ div#buscador{
 	
 	position: absolute;
 	bottom:20px;
-	right: 40%;
+	right: 33%;
 }
 footer{
 	width: 100%;
-	margin-top: 170px;
+	margin-top: -100px;
 	margin-left: 20px;
 }
 

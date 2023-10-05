@@ -13,7 +13,7 @@ div#contenedor {
  }
 
 div#contenido {
-	margin-left: 30%;
+	margin-left: 150px;
 }
 
 div#titulo {
@@ -78,8 +78,7 @@ ul, ol {
 
 div#buscador{ 
 	width: 990px;
-	height: 150px; 
-	
+	height: 100px; 
 	display: inline-flex;
 	align-items: center;
 	gap: 400px;
@@ -111,7 +110,7 @@ div#pie{
 	height: 150px; 
 	display: inline-flex;
 	align-items: center;
-	margin-top: 200px;
+	margin-top: 30px;
 }
 
 
