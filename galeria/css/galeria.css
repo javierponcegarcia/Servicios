@@ -24,7 +24,6 @@
 #imagenes img {
     width: 80%;
     height: 80%;
-    opacity: 1;
 }
 
 #imagenes div {
@@ -91,7 +90,8 @@ ul, ol {
 }
 
 div#buscador{ 
-	width: 990px;
+	width: 80%;
+	margin: auto;
 	height: 100px; 
 	display: inline-flex;
 	align-items: center;
