@@ -1,48 +1,18 @@
-#titulo{
-    margin-left: 450px;
-    margin-top: -20px;
-}
-#imagenes {
-    margin: auto;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: rgba(211, 211, 211, 0.559);
-    /* opacity: 0.6; */
-}
 
-#imagenes > div {
-    flex: 0 0 calc(33.33% - 20px);
-    margin: 10px;
-    text-align: center;
-    height: 200px;
-    margin-bottom: 20px; 
-}
 
-#imagenes img {
-    width: 80%;
-    height: 80%;
-    opacity: 1;
-}
 
-#imagenes div {
-    margin-top: 20px;
-    font-weight: bold;
 
-}
 
 body{
     background-image: url(../../img/imagen_index.jpg);
     background-repeat: no-repeat;
+	background-color: grey;
     
 }
 /* menu desplegable */
 
 * {
-	margin:0px;
-	padding:0px;
+	margin: 0 auto;
 }
 
 
@@ -90,12 +60,13 @@ ul, ol {
 	top:0px;
 }
 
-div#buscador{ 
-	width: 990px;
-	height: 100px; 
-	display: inline-flex;
+div #contenido{ 
+	
+	display: flex;
+	text-align: center;
 	align-items: center;
-	gap: 400px;
+	flex-wrap: wrap;
+	
  }
  div#formularios {
  	margin-top: 60px;
@@ -108,15 +79,41 @@ div#buscador{
 	opacity: 0.9;
  }
  
-.email{
-	margin-left: 18px;
+
+
+
+
+#titulo{
+
+	
+	
 }
 
-.nombre{
-	margin-left: 5px;
+
+#buscador{
+	
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	
+	
 }
 
+.imag img{
+	max-width: 300px;
+	max-height: 200px;
+	
+}
 
+.imag {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: center;
+	background-color: white;
+	padding: 2%;
+	opacity: 1;
+	
+}
 
 div#pie{
 	margin-left: -35px;
@@ -126,6 +123,23 @@ div#pie{
 	align-items: center;
 	margin-top: 30px;
 }
+
+
+#imagenes {
+	margin-top: 20px;
+	margin: 5%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 5%;
+	background-color: rgba(128, 128, 128, 0.5);
+	padding: 5px;
+	
+	
+
+}
+
+
 
 
 
